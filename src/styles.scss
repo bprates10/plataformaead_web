@@ -1,0 +1,129 @@
+html, body {
+  width: 95%;
+  height: 95%;
+}
+
+/* page attrs */
+.app {
+  align-items: center;
+  display: flex;
+  height: 100%;
+  justify-content: space-around;
+  position: absolute;
+  width: 100%;
+}
+
+/* navbar attrs */
+.navbar-content {
+  background-color: #C8E6C9;
+  border: 2px solid #006064;
+  border-radius: 3%;
+  // display: block;
+  position: relative;
+  height: 90%;
+  width: 30%;
+
+  /* navbar photo attrs */
+  .photo-profile {
+    border-radius: 50%;
+    border: 2px solid #006064;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    width: 100px;
+    height: 100px;
+  }
+
+  .options-content>.icon {
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+
+    .MuiSvgIcon-root {
+      color: #006064;
+      width: 35px;
+    }
+
+    p {
+      display: contents;
+    }
+
+  }
+}
+
+  /* BODY */
+  .body-home {
+    background-color: #C8E6C9;
+    border: 2px solid #006064;
+    border-radius: 3%;
+    display: flex;
+    flex-direction: column;
+    height: 85%;
+    // margin-left: 1%;
+    padding: 1%;
+    position: relative;
+    width: 60%;
+  }
+
+  .body-home>p {
+    font-size: 30px;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: row;
+
+    .students {
+      width: 100%;
+
+      .students-table {
+        box-sizing: border-box;
+
+        input[type="text"] {
+          width: 97% !important;
+        }
+
+        .search-label {
+          border: 2px dashed #ddd;
+          margin: .50% 1% .50% 0%;
+
+          .sr-only {
+            display: none;
+          }
+        }
+
+        .react-bootstrap-table {
+          
+          table {
+            border: 1px solid #666;
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+            margin-left: 0.6%;
+            width: 99%;
+          }
+          .table td {
+            background-color: #fff;
+            font-size: 12px;
+            padding: 0.5%;
+          }
+
+          .header-class {
+            font-size: 12px;
+
+            th {
+              background-color: #006064;
+            }
+          }
+        }
+
+        .row {
+          display: flex;
+          flex-wrap: wrap;
+          // margin-right: -15px;
+          // margin-left: -15px;
+        }
+      }
+    }
+  }

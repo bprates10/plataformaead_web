@@ -1,0 +1,33 @@
+.btn-add {
+  position:absolute;
+  bottom:10px;
+  // left: 40%;
+  width:100%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  // margin-left: -20%;
+  font-size: 12px;
+}
+
+.btn-content {
+
+  display: flex;
+  flex-direction: row;
+  margin-left: 12%;
+  margin-top: 1%;
+  // width: 100%;
+
+  .btn-info {
+    border: none;
+    border-radius: 5%;
+    margin-left: 1%;
+
+    p {
+      margin-top: 1%;
+    }
+  }
+}
+
